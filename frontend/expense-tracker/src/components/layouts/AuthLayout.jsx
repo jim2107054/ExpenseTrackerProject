@@ -10,9 +10,9 @@ const AuthLayout = ({children}) => {
             {children}
         </div>
 
-        <div className="hidden md:block w-[50vw] h-screen bg-violet-300 bg-auth-bg-img bg-cover bg-no-repeat bg-center overflow-hidden p-8 relative">
+        <div className="hidden md:block w-[50vw] h-screen bg-violet-500 bg-auth-bg-img bg-cover bg-no-repeat bg-center overflow-hidden p-8 relative">
             <div className="w-48 h-48 rounded-[40px] bg-blue-500 absolute -top-7 -left-5"></div>
-            <div className="w-48 h-56 rounded-[40px] border-[20px] border-violet-600 absolute top-[25%] -right-10"></div>
+            <div className="w-48 h-56 rounded-[40px] border-[20px] border-b-amber-700 absolute top-[25%] -right-10"></div>
             <div className="w-48 h-48 rounded-[40px] bg-blue-400 absolute -bottom-10 -left-5"></div>
 
             <div className="grid grid-cols-1 z-20">
