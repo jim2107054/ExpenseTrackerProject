@@ -22,5 +22,5 @@
 }
 
 .btn-primary{
-  @apply w-[460px] ml-13 py-2.5 text-white text-xl bg-primary rounded cursor-pointer hover:bg-purple-700;
+  @apply w-[100%] py-2.5 text-white text-xl bg-primary rounded cursor-pointer hover:bg-purple-700;
 }

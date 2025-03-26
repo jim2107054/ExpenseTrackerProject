@@ -8,7 +8,7 @@ function Input({ label, type, placeholder, value, onChange }) {
     setShowPassword(!showPassword);
   }
   return (
-    <div className='ml-13'>
+    <div className=''>
       <label className="text-[13px] font-semibold text-slate-800">{label}</label>
 
       <div className="input-box">

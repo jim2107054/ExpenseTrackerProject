@@ -4,13 +4,13 @@ import { LuTrendingUpDown } from 'react-icons/lu';
 
 const AuthLayout = ({children}) => {
   return (
-    <div className='flex  gap-4'>
-        <div className="w-screen h-screen md:w-[60vw] px-12 pt-8 pb-12">
-            <h2 className="text-2xl font-medium text-black -mb-30 ml-70 mt-20">Expense Tracker</h2>
+    <div className='flex h-[100vh] bg-red-400'>
+        <div className="w-screen h-[100vh] md:w-[50vw] px-12 pt-8 pb-12">
+            <h2 className="text-3xl font-medium text-black ml-40 mt-10 mb-[10px] bg-yellow-200">Expense Tracker</h2>
             {children}
         </div>
 
-        <div className="hidden md:block w-[50vw] h-screen bg-[#09403b] bg-auth-bg-img bg-cover bg-no-repeat bg-center overflow-hidden p-8 relative">
+        <div className="hidden  md:block w-[50vw] h-screen bg-[#09403b] bg-auth-bg-img bg-cover bg-no-repeat bg-center overflow-hidden p-8 relative">
             <div className="w-48 h-48 rounded-[40px] bg-blue-500 absolute -top-7 -left-5"></div>
             <div className="w-48 h-56 rounded-[40px] border-[20px] border-b-amber-700 absolute top-[25%] -right-10"></div>
             <div className="w-48 h-48 rounded-[40px] bg-blue-400 absolute -bottom-10 -left-5"></div>
