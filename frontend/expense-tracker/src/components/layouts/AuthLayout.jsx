@@ -4,9 +4,9 @@ import { LuTrendingUpDown } from 'react-icons/lu';
 
 const AuthLayout = ({children}) => {
   return (
-    <div className='flex h-[100vh] bg-red-400'>
+    <div className='flex h-[100vh]'>
         <div className="w-screen h-[100vh] md:w-[50vw] px-12 pt-8 pb-12">
-            <h2 className="text-3xl font-medium text-black ml-40 mt-10 mb-[10px] bg-yellow-200">Expense Tracker</h2>
+            <h2 className="text-4xl font-medium text-black ml-40 mt-10 mb-[10px]">Expense Tracker</h2>
             {children}
         </div>
 
